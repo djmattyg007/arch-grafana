@@ -1,7 +1,7 @@
-FROM djmattyg007/arch-runit-base:2017.10.24-4
+FROM djmattyg007/arch-runit-base:2017.10.27-1
 MAINTAINER djmattyg007
 
-ENV GRAFANAIMAGE_VERSION=2017.10.26-1
+ENV GRAFANAIMAGE_VERSION=2017.10.27-2
 
 # Add install bash script
 COPY setup/root/*.sh /root/

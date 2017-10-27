@@ -5,7 +5,7 @@ set -e
 
 echo "Install grafana packages..."
 pacman -S --noconfirm --noprogressbar --color=never grafana 
-mkdir /var/lib/grafana /var/log/grafana
+mkdir -v /var/lib/grafana /var/log/grafana
 
 echo "Add Grafana group and user"
 groupadd -g 207 --system grafana
